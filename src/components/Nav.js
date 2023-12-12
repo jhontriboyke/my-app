@@ -1,7 +1,7 @@
 function Nav() {
     return (
-        <nav>
-            <ul>
+        <nav className="main-navigation">
+            <ul className="main-navigation-links">
                 <li><a href="#" target="_blank">Home</a></li>
                 <li><a href="#" target="_blank">About</a></li>
                 <li><a href="#" target="_blank">Menu</a></li>
