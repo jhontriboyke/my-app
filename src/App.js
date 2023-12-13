@@ -15,9 +15,10 @@ function App() {
       <div className='main-wrapper'>
         <Main />
       </div>
-      <div className='about-wrapper'>
-        <About />
+      <div className='footer-wrapper'>
+        <Footer />
       </div>
+
     </>
   );
 }

@@ -10,7 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-inline: 210px;
 }
 
 ul {
@@ -24,5 +23,14 @@ a {
 img, picture {
   display: block;
   max-width: 100%;
+}
+
+button {
+  border: none;
+  font-family: var(karla);
+  color: black;
+  background-color: #F4CE14;
+  border-radius: 16px;
+  cursor: pointer;
 }
 

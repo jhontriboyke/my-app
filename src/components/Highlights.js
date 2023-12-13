@@ -50,7 +50,7 @@ function Highlights() {
         <section className="hightlights-section">
             <header className="hightlights-header">
                 <h2 className="big-heading">This weeks specials!</h2>
-                <button role="online-menu-button" className="cta">Online Menu</button>
+                <button role="online-menu-button" className="menu-btn">Online Menu</button>
             </header>
             <div className="hightlights-wrapper">
                 {listData}

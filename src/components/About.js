@@ -5,7 +5,7 @@ function About() {
     return (
         <section className="about-section">
             <section className="about-description">
-                <p className="heading">Little Lemon <br /> <span className="sub-heading black">Chicago</span></p>
+                <h2 className="heading">Little Lemon <br /> <span className="sub-heading black">Chicago</span></h2>
                 <p className="description">Little Lemon is a charming neightborhood bistro that serves simple food and classic cocktails in a lively but casual enironment. The restaurant features a locallly-sourced menu with a daily specials</p>
             </section>
             <section className="about-images">
