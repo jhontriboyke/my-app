@@ -357,7 +357,7 @@ footer img {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     div#root {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
