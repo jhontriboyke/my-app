@@ -2,52 +2,63 @@ import profile from "../assets/Image-45.png"
 
 function Testimonials() {
     return (
-        <section className="testimonials-section">
-            <header className="testimonials-header ">
-                <h2 className="big-heading">Testimonials</h2>
-            </header>
-            <section className="testimonials-wrapper ">
-                <section className="testimonial">
-                    <header className="testimonial-profile">
-                        <img src={profile} />
-                        <div>
-                            <span className="profile-name">Jhontri Boyke</span> <br />
-                            <span className="profile-rating">4.5/5.0</span>
+        <section className="testimonials">
+            <div className="testimonials-wrapper">
+                <header className="testimonial-header">
+                    <h3 className="attention">Testimonials</h3>
+                </header>
+                <div className="testimonial-lists">
+                    <div className="testimonial">
+                        <div className="profile">
+                            <div className="profile-image"><img src={profile} /></div>
+                            <div className="profile-info">
+                                <p className="profile-name">Jhontri Boyke</p>
+                                <p className="rating">4.5/5.0</p>
+                            </div>
                         </div>
-                    </header>
-                    <p className="testimonial-review">Food here all awesome, the chefs and waitress are kind!</p>
-                </section>
-                <section className="testimonial">
-                    <header className="testimonial-profile">
-                        <img src={profile} />
-                        <div>
-                            <span className="profile-name">Jhontri Boyke</span> <br />
-                            <span className="profile-rating">4.5/5.0</span>
+                        <div className="review">
+                            Food here all awesome, the chefs and waitress are kind!
                         </div>
-                    </header>
-                    <p className="testimonial-review">Food here all awesome, the chefs and waitress are kind!</p>
-                </section>
-                <section className="testimonial">
-                    <header className="testimonial-profile">
-                        <img src={profile} />
-                        <div>
-                            <span className="profile-name">Jhontri Boyke</span> <br />
-                            <span className="profile-rating">4.5/5.0</span>
+                    </div>
+                    <div className="testimonial">
+                        <div className="profile">
+                            <div className="profile-image"><img src={profile} /></div>
+                            <div className="profile-info">
+                                <p className="profile-name">Jhontri Boyke</p>
+                                <p className="rating">4.5/5.0</p>
+                            </div>
                         </div>
-                    </header>
-                    <p className="testimonial-review">Food here all awesome, the chefs and waitress are kind!</p>
-                </section>
-                <section className="testimonial">
-                    <header className="testimonial-profile">
-                        <img src={profile} />
-                        <div>
-                            <span className="profile-name">Jhontri Boyke</span> <br />
-                            <span className="profile-rating">4.5/5.0</span>
+                        <div className="review">
+                            Food here all awesome, the chefs and waitress are kind!
                         </div>
-                    </header>
-                    <p className="testimonial-review">Food here all awesome, the chefs and waitress are kind!</p>
-                </section>
-            </section>
+                    </div>
+                    <div className="testimonial">
+                        <div className="profile">
+                            <div className="profile-image"><img src={profile} /></div>
+                            <div className="profile-info">
+                                <p className="profile-name">Jhontri Boyke</p>
+                                <p className="rating">4.5/5.0</p>
+                            </div>
+                        </div>
+                        <div className="review">
+                            Food here all awesome, the chefs and waitress are kind!
+                        </div>
+                    </div>
+                    <div className="testimonial">
+                        <div className="profile">
+                            <div className="profile-image"><img src={profile} /></div>
+                            <div className="profile-info">
+                                <p className="profile-name">Jhontri Boyke</p>
+                                <p className="rating">4.5/5.0</p>
+                            </div>
+                        </div>
+                        <div className="review">
+                            Food here all awesome, the chefs and waitress are kind!
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
     )
 }
