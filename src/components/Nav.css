@@ -1,0 +1,14 @@
+nav ul {
+    display: none;
+}
+
+@media (min-width: 789px) {
+    .menu-icon {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem   ;
+    }
+}
