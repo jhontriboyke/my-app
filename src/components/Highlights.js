@@ -1,4 +1,3 @@
-import greek_salad from "../assets/greek salad.jpg"
 import "./Highlight.css"
 
 function Highlights() {
@@ -50,8 +49,6 @@ function Highlights() {
                         </div>
                     </section>
                 })}
-
-
             </section>
         </section>
     )

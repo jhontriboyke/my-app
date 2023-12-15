@@ -2,6 +2,33 @@ nav ul {
     display: none;
 }
 
+nav ul a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.expanded {
+    display: block;
+    position: absolute;
+    top: 72px;
+    right: 0px;
+    min-height: 100vh;
+    background-color: var(--primary-color-2);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: end;
+    transition: .25s ease-in-out;
+}
+
+.menu-icon svg {
+    z-index: 99;
+    width: 50px;
+}
+
 @media (min-width: 789px) {
     .menu-icon {
         display: none;
@@ -9,6 +36,6 @@ nav ul {
 
     nav ul {
         display: flex;
-        gap: 1rem   ;
+        gap: 1rem;
     }
 }

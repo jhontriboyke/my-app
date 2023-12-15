@@ -1,6 +1,8 @@
 import Logo from "../assets/little-lemon_vertical.png"
 import "./Footer.css"
 
+import { Link } from "react-router-dom"
+
 function Footer() {
     return (
         <footer>
@@ -8,12 +10,13 @@ function Footer() {
             <div>
                 <h4>Doormat Navigation</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Reservations</a></li>
-                    <li><a href="#">Order Online</a></li>
-                    <li><a href="#">Login</a></li>
+                    <Link to='/'>Home</Link>
+                    <Link to='/about-us'>About</Link>
+                    <Link to=''>Menu</Link>
+                    <Link to=''>Reservations</Link>
+                    <Link to=''>Order Online</Link>
+                    <Link to=''>Login</Link>
+
                 </ul>
             </div>
             <div>
